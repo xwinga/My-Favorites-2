@@ -118,3 +118,10 @@ ul {
 #Galery {
    background-color: yellow;
 }
+img {
+    transition: transfrom .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover {
+    transform: scale(0.9);
+}
